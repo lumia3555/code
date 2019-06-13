@@ -27,9 +27,12 @@ func main() {
 
 		// Display the alphabet three times
 		for count := 0; count < 3; count++ {
+			fmt.Printf("%v \n", count+1)
+
 			for char := 'a'; char < 'a'+26; char++ {
 				fmt.Printf("%c ", char)
 			}
+			fmt.Printf("\n")
 		}
 	}()
 
@@ -40,9 +43,11 @@ func main() {
 
 		// Display the alphabet three times
 		for count := 0; count < 3; count++ {
+			fmt.Printf("%v \n", count+1)
 			for char := 'A'; char < 'A'+26; char++ {
 				fmt.Printf("%c ", char)
 			}
+			fmt.Printf("\n")
 		}
 	}()
 

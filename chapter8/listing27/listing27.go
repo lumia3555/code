@@ -36,5 +36,5 @@ func main() {
 		return
 	}
 
-	fmt.Println(c)
+	fmt.Println(c.Name)
 }

@@ -11,6 +11,7 @@ var matchers = make(map[string]Matcher)
 // Run performs the search logic.
 func Run(searchTerm string) {
 	// Retrieve the list of feeds to search through.
+	// feed.go => RetrieveFeeds() ([]*Feed, error)
 	feeds, err := RetrieveFeeds()
 	if err != nil {
 		log.Fatal(err)
